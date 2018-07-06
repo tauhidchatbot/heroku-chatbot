@@ -6,5 +6,6 @@ var express = require('express');
 }; */
 
 exports.chatBot = function(req, res) {
-	res.send("Hello Tauhid! Heroku Deploy");
+	res.send(req.body);
+	//res.send("Hello Tauhid! Heroku Deploy");
 }

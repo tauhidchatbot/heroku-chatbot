@@ -1,0 +1,15 @@
+{
+  "name": "trkchatbot",
+  "version": "1.0.0",
+  "description": "Tauhid Chatbot basics",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "tauhid",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  }
+}

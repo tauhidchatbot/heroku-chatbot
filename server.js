@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // set the home page route
 app.get('/', function(req, res) {
-	res.send("Shivam testing for heroku connection.")
+	res.send("Amarta solution chatbot appliation.")
 
     // ejs render automatically looks in the views folder
     //res.render('index');

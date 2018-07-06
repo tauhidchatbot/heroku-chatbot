@@ -15,7 +15,7 @@ exports.chatBot = function(req, res) {
 	// Using the v2 will become mandatory, Google wrote a guide to migrate from v1 to v2 as v2 is officially released
 
 	const response = {
-		fulfillmentText: "Hello Tauhid! Your webhook is working good",
+		fulfillmentText: "Hello Amit! Your webhook is working good & you are best friend",
 	}
 res.json(response);
 }

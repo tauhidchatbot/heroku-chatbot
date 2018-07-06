@@ -13,7 +13,7 @@ app.set('view engine', 'ejs');
 
 // set the home page route
 app.get('/', function(req, res) {
-	res.send("Hello Tauhid! Heroku jhgkjhgjkgjkh.")
+	res.send("Hello Tauhid! You are on heroku app Dashoard.")
 
     // ejs render automatically looks in the views folder
     //res.render('index');

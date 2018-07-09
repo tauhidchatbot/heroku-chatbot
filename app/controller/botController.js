@@ -9,7 +9,7 @@ exports.chatBot = function(req, res) {
 	/*res.send(req.body);
 	//res.send("Hello Tauhid! Heroku Deploy");*/
 	var data = req.body.responseId;
-	console.lg(data);
+	console.log(data);
 
 	// Code the task you want to achieve with @data
 	// Read the v2 api documentation of dialogflow : https://dialogflow.com/docs/fulfillment

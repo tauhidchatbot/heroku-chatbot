@@ -8,8 +8,6 @@ var express = require('express');
 exports.chatBot = function(req, res) {
 	/*res.send(req.body);
 	//res.send("Hello Tauhid! Heroku Deploy");*/
-	console.log(req.body.result);
-	return;
 	const data = req.body;
 
 	// Code the task you want to achieve with @data
@@ -17,7 +15,7 @@ exports.chatBot = function(req, res) {
 	// Using the v2 will become mandatory, Google wrote a guide to migrate from v1 to v2 as v2 is officially released
 
 	const response = {
-		fulfillmentText: "Hello Amit! Your webhook is working good & you are best friend",
+		fulfillmentText: "My name is khan, From chatbot hub",
 	}
 res.json(response);
 }

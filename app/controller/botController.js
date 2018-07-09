@@ -43,7 +43,7 @@ if (req.body.result.action === "a_fetch_user_details") {
 				name : "e_fetch_user_details"
 			},
 			source : "from tauhid"
-		})
+		});
 	}
 }
 

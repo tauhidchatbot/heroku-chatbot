@@ -21,7 +21,7 @@ var bodyParser = require('body-parser');
 	}
     res.json(response);*/
 
-exports.amitYadav = function(req, res) {
+exports.pizzabot = function(req, res) {
 
 console.log("hello tauhid pizza bot details");
 

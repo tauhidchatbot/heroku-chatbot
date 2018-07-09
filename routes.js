@@ -6,7 +6,7 @@ module.exports = function(app) {
 
 	//app.post('/chatBot', require('./controllers/chatController.js').chatBot);
 	//app.post('/chatBot', serverBotController.chatBot);
-	app.post('/chatBot', serverBotController.pizzabot);
+	app.post('/chatBot', serverBotController.amitYadav);
 
 	//app.get('/',chatBot.index);
 }

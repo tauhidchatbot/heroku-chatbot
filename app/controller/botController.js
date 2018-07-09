@@ -8,6 +8,8 @@ var express = require('express');
 exports.chatBot = function(req, res) {
 	/*res.send(req.body);
 	//res.send("Hello Tauhid! Heroku Deploy");*/
+	console.log(req.body.result);
+	return;
 	const data = req.body;
 
 	// Code the task you want to achieve with @data

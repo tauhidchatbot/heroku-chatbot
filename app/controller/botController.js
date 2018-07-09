@@ -5,11 +5,13 @@ var express = require('express');
   res.render('index');
 }; */
 
-exports.chatBot = function(req, res) {
+exports.chatBot = function(request, response) {
+	console.log("hello tauhid");
+	console.log('Dialogflow Request headers: ' + JSON.stringify(request.headers));
+	return;
 	/*res.send(req.body);
 	//res.send("Hello Tauhid! Heroku Deploy");*/
-	/*var data = req.body;
-	console.log(data);*/
+	//var data = req.body;
 
 	// Code the task you want to achieve with @data
 	// Read the v2 api documentation of dialogflow : https://dialogflow.com/docs/fulfillment

@@ -38,7 +38,8 @@ if (req.body.result.action === "a_fetch_user_details") {
 					"username"  : req.body.result.parameters["username"],
 					"address"   : "Sohana Road Gurgaon",
 					"phonenum"  : "1234567891",
-					"email"     : "tauhid.rkhan@amartam.com"
+					"email"     : "tauhid.rkhan@amartam.com",
+					"thanksmsg" : req.body.result.parameters["thanksmsg"]
 				},
 				name : "e_fetch_user_details"
 			},

@@ -38,8 +38,7 @@ if (req.body.result.action === "a_fetch_user_details") {
 					"username"  : req.body.result.parameters["username"],
 					"address"   : "Sohana Road Gurgaon",
 					"phonenum"  : "1234567891",
-					"email"     : "khan@gmail.com"
-					//"email"     : req.body.result.parameters["email"]
+					"email"     : req.body.result.parameters["email"]
 				},
 				name : "e_fetch_user_details"
 			},

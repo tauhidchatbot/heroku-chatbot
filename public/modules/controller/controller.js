@@ -14,4 +14,14 @@ botApp.controller('chatbotController', function($scope, $location, $rootScope, $
         })
     }
 
+    $scope.registration = function(data) {
+        console.log(data);
+        $http.post('registration', data).success(function(response) {
+            console.log(response);
+            if (response.authentication == true) {
+                console.log("registration done");
+            }
+        })
+    }
+
 });

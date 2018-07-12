@@ -16,5 +16,3 @@ mongoose.connection.on('err',function(err){
 //var url = 'mongodb://Chabbe:XXXX@ds143754.mlab.com:43754/gamestore';
 
 //mongodb://<dbuser>:<dbpassword>@ds217921.mlab.com:17921/chatbot
-
-mongodb://<dbuser>:<dbpassword>@ds217921.mlab.com:17921/chatbot

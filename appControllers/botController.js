@@ -57,7 +57,12 @@ console.log("hello tauhid pizza bot details");
 
 if (req.body.result.action === "a_fetch_user_details") {
 	console.log("fetch user action fired");
-	if (req.body.result.parameters["username"] != "") {
+	botDB.find({
+		req.body.result.parameters["username"] != "username"
+	}, function(err, data) {
+		console.log(data);
+	})
+	/*if (req.body.result.parameters["username"] != "") {
 		return res.json({
 			speech : "Fetched user details",
 			displaytext : "welcome Tauhid Raza Khan!",
@@ -74,7 +79,7 @@ if (req.body.result.action === "a_fetch_user_details") {
 			},
 			source : "from tauhid"
 		});
-	}
+	}*/
 }
 
 }

@@ -51,18 +51,14 @@ exports.userRegistration = function(req, res) {
 	})
 }
 
+
 exports.pizzabot = function(req, res) {
 
 console.log("hello tauhid pizza bot details");
 
 if (req.body.result.action === "a_fetch_user_details") {
 	console.log("fetch user action fired");
-	botDB.find({
-		req.body.result.parameters["username"] == "ravisingh"
-	}, function(err, data) {
-		console.log(data);
-	})
-	/*if (req.body.result.parameters["username"] != "") {
+	if (req.body.result.parameters["username"] != "") {
 		return res.json({
 			speech : "Fetched user details",
 			displaytext : "welcome Tauhid Raza Khan!",
@@ -79,7 +75,7 @@ if (req.body.result.action === "a_fetch_user_details") {
 			},
 			source : "from tauhid"
 		});
-	}*/
+	}
 }
 
 }
